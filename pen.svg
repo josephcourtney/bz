@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" version="1.1" id="svg4" xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+   <defs id="defs4" />
+   <g id="g4">
+      <g transform="matrix(0.7,-0.7,0.7,0.7,-55.5,-55.7)" stroke="#ffffff" stroke-width="3" stroke-linecap="round"
+         fill="none" id="g3">
+         <g id="g5" transform="matrix(1.1044242,1.9310741e-5,1.9310741e-5,1.1044242,0.07643748,-9.1476225)"
+            style="stroke-width:2.71635">
+            <path d="m 12.9,147 -2.6,-12.3 h -20.9 l -2.6,12.9" id="path1" style="stroke-width:2.71635" />
+            <path
+               d="m -8,134.7 -8.7,-25.6 c 6.3,-6.5 11.2,-14.7 13.9,-23.9 h 5.2 c 2.7,9.2 7.6,17.4 14,23.9 L 7.7,134.7 H -8"
+               id="path2" style="stroke-width:2.71635" />
+            <path d="M -0.13022743,85.658181 -0.2,106" id="path3" style="stroke-width:2.71635" />
+            <ellipse cx="-0.2" cy="109.3" rx="2.5" ry="2.7" id="ellipse3" style="stroke-width:2.71635" />
+         </g>
+      </g>
+   </g>
+</svg>

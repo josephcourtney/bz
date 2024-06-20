@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bezier Spline Manipulation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <div id="toolbar">
+      <button id="pointer-tool" class="active">
+        <img src="pointer.svg" width="24" />
+      </button>
+      <button id="pen-tool"><img src="pen.svg" width="24" /></button>
+    </div>
+    <ul id="context-menu">
+      <li class="menu-item">a</li>
+      <div class="divider"></div>
+      <li class="menu-item">b</li>
+      <div class="divider"></div>
+      <li class="menu-item">c</li>
+    </ul>
+
+    <script src="script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const config = {
+          grid: {
+            color: "#777",
+            coarseLineWidth: 1.0,
+            fineLineWidth: 0.1,
+            fineGridLinesPerCoarse: 5,
+            numLevels: 3,
+            baseGridSize: 50,
+          },
+          controlPoints: {
+            onCurveColor: "magenta",
+            offCurveColor: "cyan",
+            selectedColor: "white",
+            selectedHaloColor: "white",
+            selectedHaloBlur: 10,
+            radius: 5,
+            snapDistance: 10,
+          },
+          lines: {
+            controlLineColor: "#888888",
+            bezierCurveColor: "white",
+            controlLineWidth: 1,
+            bezierLineWidth: 2,
+          },
+          labels: {
+            font: "12px Arial",
+            color: "white",
+          },
+          backgroundColor: "#222222",
+          zoomFactor: 1.04,
+          cursorSize: 24,
+        };
+
+        initializeBezierSpline(config);
+      });
+    </script>
+  </body>
+</html>
